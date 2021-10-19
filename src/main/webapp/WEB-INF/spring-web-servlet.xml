@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="UserLoginServlet" class="controller.UserLoginServlet"></bean>
+    <bean name="UserRegisterServlet" class="controller.UserRegisterServlet"></bean>
+    <bean name="UserProfileServlet" class="controller.UserProfileServlet"></bean>
+<!--    <bean name="UserLogin" class="service.UserLogin"></bean>-->
+<!--    <bean name="UserRegister" class="service.UserRegister"></bean>-->
+<!--    <bean name="UserRepository" class="repository.UserRepository"></bean>-->
+    <bean name="App" class="App"></bean>
+</beans>
